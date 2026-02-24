@@ -1,0 +1,4 @@
+[2026-02-24 18:49:00] Starting run: linear_base_lowmask_mask40_bs32_p5_dim192_d4_h6_lr0.0001_wd0.0001_ep100_seed67
+[2026-02-24 18:49:00] Using device: cuda
+[2026-02-24 18:50:22] Starting run: linear_base_lowmask_mask40_bs32_p5_dim192_d4_h6_lr0.0001_wd0.0001_ep100_seed67
+[2026-02-24 18:50:22] Using device: cuda

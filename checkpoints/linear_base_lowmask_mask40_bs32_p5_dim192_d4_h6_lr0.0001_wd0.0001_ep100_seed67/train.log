@@ -1,4 +1,16 @@
-[2026-02-24 18:49:00] Starting run: linear_base_lowmask_mask40_bs32_p5_dim192_d4_h6_lr0.0001_wd0.0001_ep100_seed67
-[2026-02-24 18:49:00] Using device: cuda
 [2026-02-24 18:50:22] Starting run: linear_base_lowmask_mask40_bs32_p5_dim192_d4_h6_lr0.0001_wd0.0001_ep100_seed67
 [2026-02-24 18:50:22] Using device: cuda
+[2026-02-24 18:57:15] Epoch 1: train_loss=0.828644, val_loss=0.807614, best_val=0.807614
+[2026-02-24 19:04:09] Epoch 2: train_loss=0.808335, val_loss=0.800359, best_val=0.800359
+[2026-02-24 19:11:18] Epoch 3: train_loss=0.807124, val_loss=0.799215, best_val=0.799215
+[2026-02-24 19:18:35] Epoch 4: train_loss=0.804722, val_loss=0.807676, best_val=0.799215
+[2026-02-24 19:25:49] Epoch 5: train_loss=0.803261, val_loss=0.800409, best_val=0.799215
+[2026-02-24 19:32:44] Epoch 6: train_loss=0.798927, val_loss=0.794334, best_val=0.794334
+[2026-02-24 19:35:44] Epoch 7: train_loss=0.797563, val_loss=0.794895, best_val=0.794334
+[2026-02-24 19:43:47] Epoch 8: train_loss=0.795496, val_loss=0.795490, best_val=0.794334
+[2026-02-24 19:51:40] Epoch 9: train_loss=0.793973, val_loss=0.793941, best_val=0.793941
+[2026-02-24 19:59:26] Epoch 10: train_loss=0.792148, val_loss=0.789127, best_val=0.789127
+[2026-02-24 20:07:28] Epoch 11: train_loss=0.791784, val_loss=0.783988, best_val=0.783988
+[2026-02-24 20:15:31] Epoch 12: train_loss=0.789848, val_loss=0.788529, best_val=0.783988
+[2026-02-24 20:23:16] Epoch 13: train_loss=0.788710, val_loss=0.787523, best_val=0.783988
+[2026-02-24 20:28:38] Epoch 14: train_loss=0.787793, val_loss=0.783636, best_val=0.783636

@@ -1,0 +1,15 @@
+{
+  "name": "linear_large",
+  "mask_ratio": 0.6,
+  "batch_size": 12,
+  "dim": 384,
+  "depth": 6,
+  "heads": 12,
+  "patch": 5,
+  "lr": 6e-05,
+  "weight_decay": 0.0001,
+  "epochs": 100,
+  "val_frac": 0.05,
+  "grad_clip": 1.0,
+  "seed": 67
+}

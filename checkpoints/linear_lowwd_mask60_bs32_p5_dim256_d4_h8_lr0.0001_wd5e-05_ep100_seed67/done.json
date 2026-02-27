@@ -1,0 +1,18 @@
+{
+  "run_name": "linear_lowwd_mask60_bs32_p5_dim256_d4_h8_lr0.0001_wd5e-05_ep100_seed67",
+  "run_dir": "checkpoints/linear_lowwd_mask60_bs32_p5_dim256_d4_h8_lr0.0001_wd5e-05_ep100_seed67",
+  "mask_ratio": 0.6,
+  "batch_size": 32,
+  "patch": 5,
+  "dim": 256,
+  "depth": 4,
+  "heads": 8,
+  "lr": 0.0001,
+  "weight_decay": 5e-05,
+  "seed": 67,
+  "best_val_loss": 0.758127008980893,
+  "final_train_loss": 0.7570136972816972,
+  "final_val_loss": 0.7617120425751869,
+  "epochs": 100,
+  "status": "completed"
+}

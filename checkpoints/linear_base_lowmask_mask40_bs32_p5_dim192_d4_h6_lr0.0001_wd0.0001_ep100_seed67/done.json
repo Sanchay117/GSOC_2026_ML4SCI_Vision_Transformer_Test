@@ -1,0 +1,18 @@
+{
+  "run_name": "linear_base_lowmask_mask40_bs32_p5_dim192_d4_h6_lr0.0001_wd0.0001_ep100_seed67",
+  "run_dir": "checkpoints/linear_base_lowmask_mask40_bs32_p5_dim192_d4_h6_lr0.0001_wd0.0001_ep100_seed67",
+  "mask_ratio": 0.4,
+  "batch_size": 32,
+  "patch": 5,
+  "dim": 192,
+  "depth": 4,
+  "heads": 6,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 67,
+  "best_val_loss": 0.75331138867013,
+  "final_train_loss": 0.7558351739087089,
+  "final_val_loss": 0.7617480621692982,
+  "epochs": 100,
+  "status": "completed"
+}

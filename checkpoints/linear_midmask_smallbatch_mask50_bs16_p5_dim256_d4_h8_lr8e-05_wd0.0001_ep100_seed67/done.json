@@ -1,0 +1,18 @@
+{
+  "run_name": "linear_midmask_smallbatch_mask50_bs16_p5_dim256_d4_h8_lr8e-05_wd0.0001_ep100_seed67",
+  "run_dir": "checkpoints/linear_midmask_smallbatch_mask50_bs16_p5_dim256_d4_h8_lr8e-05_wd0.0001_ep100_seed67",
+  "mask_ratio": 0.5,
+  "batch_size": 16,
+  "patch": 5,
+  "dim": 256,
+  "depth": 4,
+  "heads": 8,
+  "lr": 8e-05,
+  "weight_decay": 0.0001,
+  "seed": 67,
+  "best_val_loss": 0.756983830256665,
+  "final_train_loss": 0.7523542089205326,
+  "final_val_loss": 0.7612619393683494,
+  "epochs": 100,
+  "status": "completed"
+}

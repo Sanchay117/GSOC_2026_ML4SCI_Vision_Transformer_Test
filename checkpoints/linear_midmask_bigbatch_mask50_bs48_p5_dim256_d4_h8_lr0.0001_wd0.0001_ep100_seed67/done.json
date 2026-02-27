@@ -1,0 +1,18 @@
+{
+  "run_name": "linear_midmask_bigbatch_mask50_bs48_p5_dim256_d4_h8_lr0.0001_wd0.0001_ep100_seed67",
+  "run_dir": "checkpoints/linear_midmask_bigbatch_mask50_bs48_p5_dim256_d4_h8_lr0.0001_wd0.0001_ep100_seed67",
+  "mask_ratio": 0.5,
+  "batch_size": 48,
+  "patch": 5,
+  "dim": 256,
+  "depth": 4,
+  "heads": 8,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 67,
+  "best_val_loss": 0.7569000361457704,
+  "final_train_loss": 0.7554786770231394,
+  "final_val_loss": 0.7615444423660399,
+  "epochs": 100,
+  "status": "completed"
+}

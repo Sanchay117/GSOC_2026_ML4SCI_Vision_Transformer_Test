@@ -1,0 +1,18 @@
+{
+  "run_name": "linear_compact_mask60_bs64_p5_dim128_d4_h4_lr0.00015_wd0.0001_ep100_seed67",
+  "run_dir": "checkpoints/linear_compact_mask60_bs64_p5_dim128_d4_h4_lr0.00015_wd0.0001_ep100_seed67",
+  "mask_ratio": 0.6,
+  "batch_size": 64,
+  "patch": 5,
+  "dim": 128,
+  "depth": 4,
+  "heads": 4,
+  "lr": 0.00015,
+  "weight_decay": 0.0001,
+  "seed": 67,
+  "best_val_loss": 0.7646836625768784,
+  "final_train_loss": 0.7676748568495249,
+  "final_val_loss": 0.765735536179644,
+  "epochs": 100,
+  "status": "completed"
+}

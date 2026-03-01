@@ -1,0 +1,62 @@
+{
+  "checkpoint": "linear_patch25_mask60_bs64_p25_dim256_d6_h8_lr0.0001_wd0.0001_ep100_seed67",
+  "tasks": {
+    "cls": {
+      "pretrained": {
+        "loss": 0.355091357041919,
+        "acc": 0.845,
+        "accuracy": 0.845,
+        "auc": 0.9203105698782225,
+        "tn": 808,
+        "fp": 207,
+        "fn": 103,
+        "tp": 882
+      },
+      "scratch": {
+        "loss": 0.39871645706986625,
+        "acc": 0.8275,
+        "accuracy": 0.8275,
+        "auc": 0.9006226400940212,
+        "tn": 782,
+        "fp": 233,
+        "fn": 112,
+        "tp": 873
+      }
+    },
+    "mass": {
+      "pretrained": {
+        "loss": 0.5575857912264173,
+        "loss_denorm": 1467.0988020039447
+      },
+      "scratch": {
+        "loss": 0.5836724880195799,
+        "loss_denorm": 1535.7371393068192
+      }
+    },
+    "pt": {
+      "pretrained": {
+        "loss": 1.1391381626091306,
+        "loss_denorm": 13349.205563334679
+      },
+      "scratch": {
+        "loss": 1.1608756567750658,
+        "loss_denorm": 13603.94049152655
+      }
+    }
+  },
+  "hyperparams": {
+    "name": "linear_patch25",
+    "mask_ratio": 0.6,
+    "batch_size": 64,
+    "dim": 256,
+    "depth": 6,
+    "heads": 8,
+    "patch": 25,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "epochs": 100,
+    "val_frac": 0.05,
+    "grad_clip": 1.0,
+    "seed": 67
+  }
+}
